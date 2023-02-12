@@ -1,21 +1,8 @@
-nav 
-    nav lu{
-        display: none;
-    }
-    a{
-    color: antiquewhite;
-    font-size:16px;
-    } 
-    nav li{
-    display:inline-block;
-    width:12%;
-    padding:4px 11px;
-    background-color:aqua;
-    border:2px solid #000;
-    text-align:justify;
-    color:#f1ebeb;
-    }
-    nav li:hover{
-    background-color:#fff;
-    color:#000;
-    }
+body {
+    background-color:rgb(238, 233, 233);
+   }
+header{
+    text-align: center;
+    width:600px;
+     font-family:'Times New Roman', Times, serif;
+}
