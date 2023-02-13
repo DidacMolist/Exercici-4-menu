@@ -40,8 +40,6 @@
     display: none;
 }
 
-/* PROPIETATS ESPECÍFIQUES */
-
 #menu ul li ul li ul li a.primera {
     border-top-color: rgb(0, 0, 0);
 }
@@ -59,8 +57,6 @@
     display: block;
     position: relative;
 }
-
-/* PROPIETAT HOVER */
 
 #menu ul li:hover {
     position: relative;
