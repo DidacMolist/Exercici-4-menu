@@ -6,7 +6,7 @@
 
 #menu {
     text-align: center;
-    font-size: 0.7em;
+    font-size: 0.9em;
     width: center;
     margin: 30px auto;
     font-family:'Times New Roman', Times, serif;
@@ -17,7 +17,7 @@
 }
 
 #menu ul li {
-    width: 170px;
+    width: 190px;
 }
 
 #menu ul li a {
@@ -31,7 +31,7 @@
 }
 
 #menu ul li ul li a {
-    width: 170px;
+    width: 190px;
     padding: 8px 0px;
     border-top-color: transparent;
 }
@@ -80,7 +80,7 @@
 #menu ul li ul li a:hover ul.nivell3, #menu ul li ul li:hover ul.nivell3 {
     display: block;
     position: absolute;
-    left: 170px;
+    left: 190px;
     top:0px;
 }
 
