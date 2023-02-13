@@ -34,3 +34,24 @@
 	padding: 8px 0px;
 	border-top-color: transparent;
 }
+#menu ul li ul {
+	display: none;
+}
+
+#menu ul li ul li ul li a.primera {
+	border-top-color: #fff;
+}
+
+#menu ul li.nivel1 { 
+	float: left;
+	margin-right: 1px;
+}
+
+#menu ul li a.nivel2 {
+	color: #000;
+}
+
+#menu ul li a.nivel1, #menu ul li a.nivel2 {
+	display: block;
+	position: relative;
+}
