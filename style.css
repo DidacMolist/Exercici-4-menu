@@ -8,8 +8,8 @@
     text-align: center;
     font-size: 0.7em;
     width: center;
-    margin: 20px auto;
-    font-family:Arial, Helvetica, sans-serif;
+    margin: 30px auto;
+    font-family:'Times New Roman', Times, serif;
 }
 
 #menu ul {
@@ -17,21 +17,21 @@
 }
 
 #menu ul li {
-    width: 162px;
+    width: 170px;
 }
 
 #menu ul li a {
     display: block;
     text-decoration: none;
-    color: white;
-    background-color: red;
-    border: solid 1px white;
+    color: rgb(236, 197, 24);
+    background-color: rgb(68, 66, 66);
+    border: solid 1px rgb(0, 0, 0);
     padding: 8px;
     position: relative;
 }
 
 #menu ul li ul li a {
-    width: 160px;
+    width: 170px;
     padding: 8px 0px;
     border-top-color: transparent;
 }
@@ -43,16 +43,16 @@
 /* PROPIETATS ESPECÍFIQUES */
 
 #menu ul li ul li ul li a.primera {
-    border-top-color: white;
+    border-top-color: rgb(0, 0, 0);
 }
 
 #menu ul li.nivell1 { 
-    float: left;
+    float: right;
     margin-right: 1px;
 }
 
 #menu ul li a.nivell2 {
-    color: black;
+    color: rgb(235, 229, 229);
 }
 
 #menu ul li a.nivell1, #menu ul li a.nivell2 {
@@ -67,8 +67,8 @@
 }
 
 #menu ul li a:hover, #menu ul li:hover a.nivell1 {
-    background-color: orange;
-    color: black;
+    background-color: rgb(0, 0, 0);
+    color: rgb(226, 217, 217);
     position: relative;
 }
 
@@ -80,7 +80,7 @@
 #menu ul li ul li a:hover ul.nivell3, #menu ul li ul li:hover ul.nivell3 {
     display: block;
     position: absolute;
-    left: 161px;
+    left: 170px;
     top:0px;
 }
 
