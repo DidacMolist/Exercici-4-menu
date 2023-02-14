@@ -39,9 +39,6 @@
 #menu ul li ul {
     display: none;
 }
-
-#menu ul li ul li ul li a.primera {
-    border-top-color: rgb(0, 0, 0);
 }
 
 #menu ul li.nivell1 { 
